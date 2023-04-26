@@ -1,14 +1,19 @@
-/* En este archivo escriban su CSS */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap')
 
-/* Fonts */
-/* Importar aquí la font */
-
-
-
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
-
+.titulo{
+    font-family: "Lato", sans-serif;
+}
+header{
+    min-height: 100vh
+}
+.Edza1{
+    height: 35vh;
+    border-radius: 20%;
+    display: block;
+    width: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Reset */
 * {
     box-sizing: border-box;
